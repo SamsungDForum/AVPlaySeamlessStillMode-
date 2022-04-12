@@ -1,10 +1,11 @@
-# AVPlaySeamlessStillMode-
-This application demonstrates the usage of `webapis.avplay` API playing videos in seamless manner using Still mode. With this API it is possible to have a video player in application. AVPlay is alternative to HTML5 player and has many advantages over it including: wider range of codecs and formats, DRMs support, hardware acceleration.
+# AVPlay SeamlessPlay - MixedFrame mode
+
+This application demonstrates the usage of `webapis.avplaystore` API playing videos in seamless manner using Mixedframe mode. Using AVPlay store you can run two players simultaneously. With this API it is possible to have a video player in application. AVPlay is alternative to HTML5 player and has many advantages over it including: wider range of codecs and formats, DRMs support, hardware acceleration.
 It is highly recommended for handling videos in SSSP applications.
 
 ## How to use the AVPlay SeamlessPlay application
 
-First add videos to project folder and alternate playList array values with videos name. After building and installing the app, press play to start seamless playback.
+First add videos to project folder and alternate url values with videos name. After building and installing the app, video playback will start automatically. Review Main.onKeyDown for other playback options.
 
 ## Supported platforms
 
@@ -12,7 +13,7 @@ First add videos to project folder and alternate playList array values with vide
 
 ## Prerequisites
 
-To use `webapis.avplay` API, embed below script into your `index.html`:
+To use `webapis.avplaystore` API, embed below script into your `index.html`:
 
 ```html
 <script src="$WEBAPIS/webapis/webapis.js"></script>
@@ -20,7 +21,7 @@ To use `webapis.avplay` API, embed below script into your `index.html`:
 
 ## Privileges and metadata
 
-In order to use `webapis.avplay` API the following privilege must be included in `config.xml`:
+In order to use `webapis.avplaystore` API the following privilege must be included in `config.xml`:
 
 ```xml
 <tizen:privilege name="http://developer.samsung.com/privilege/avplay" />
@@ -36,7 +37,7 @@ Known Limitations comes from the fact of video usage. Please refer to SDF articl
 ### File structure
 
 ```
-AVPlayMixedFrame/ - AVPlayMixedFrame sample app root folder
+AVPlayStillMode/ - AVPlayStillMode sample app root folder
 │
 ├── css/ - styles used in the application
 │   │
