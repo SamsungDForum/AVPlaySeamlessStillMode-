@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/AVPlay2Video" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="srQadPJQjh.AVPlay2Video" package="srQadPJQjh" required_version="2.4"/>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/BasicProject" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="tBvvvsH9DD.BasicProject" package="tBvvvsH9DD" required_version="2.4"/>
     <content src="index.html"/>
-    <feature name="http://tizen.org/feature/screen.size.all"/>
-    <name>AVPlay2Video</name>
-    <tizen:privilege name="http://developer.samsung.com/privilege/avplay"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <name>BasicProject</name>
     <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/avplay"/>
     <tizen:profile name="tv-samsung"/>
     <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>
